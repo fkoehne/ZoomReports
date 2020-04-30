@@ -1,7 +1,7 @@
 #' Create intervals for movement observation
 #'
-#' @param start_ymd_hm A string representing the start time in format **"YYYY-MM-DD HH:MM"**
-#' @param end_ymd_hm A string representing the end time in format **"YYYY-MM-DD HH:MM"**
+#' @param start_ymd_hm A string representing the start time in format **"%Y-%m-%d %H:%M"**
+#' @param end_ymd_hm A string representing the end time in format **"%Y-%m-%d %H:%M"**
 #' @param min_int An interger representing the minute intervals used from **start_ymd_hm** to **end_ymd_hm**
 #' @return a vector of sequential time intervals between given start and end times
 #' @examples
